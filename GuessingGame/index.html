@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guessing Game</title>
+
+    <!-- Bootstrap and CSS here-->
+    <link rel='stylesheet' type='text/css' href='style.css'>
+    <link rel='stylesheet' type='text/css' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Acme|Amatic+SC|Poiret+One|Wendy+One');
+    </style>
+
+  </head>
+  <body>
+
+      <div id='app' class='container center'>
+
+        <div id='headers'>
+          <!-- Title and subtitles! -->
+          <h1 id='title'>Guessing Game!</h1>
+          <h2 id='subtitle'>Guess a number between 1 - 100</h2>
+          
+        </div>
+
+        <div id='main'>
+          <div id='input-parent'>
+            <!-- Player's guess input, and submit button -->
+            <input id='player-input' class="center" placeholder="#" maxlength='3' autofocus='autofocus'></input>
+            <button id='submit' class='btn btn-success' class="center">GO!</button>
+            <div id='gauge'>
+              <h4>Highest</h4>
+              <h3 id='max' class="btn btn-info">100</h3>
+              <img id='gaugeBar' src=' '></img>
+              <h3 id='min' class="btn btn-info">1</h3>
+              <h4>Lowest</h4>
+            </div>
+          </div>
+
+          <div id='guesses'>
+            <!-- unordered list of guesses -->
+            <ul id='guess-list'>
+                <li class='guess'>00</li>
+                <li class='guess'>00</li>
+                <li class='guess'>00</li>
+                <li class='guess'>00</li>
+                <li class='guess'>00</li>
+            </ul>
+          </div>
+
+          <div id="menu-btns">
+            <!-- reset and hint buttons -->
+            <button id='reset' class='btn btn-warning'>Retry</button>
+            <button id='hint' class='btn btn-info'>Hint</button>
+            <button id='count' class="btn btn-danger btn-lg">Play: 1</button>
+            <button id='winning' class="btn btn-info btn-lg">Win: 0</button>
+          <div class="progress">
+              <div id='left' class="progress-bar progress-bar-striped" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">5 / 5</div>
+          </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    <div id='footer'  class='center'>
+        <div class='row'>
+          <div class='col-sm-4'>
+            <img src='source/fa-logo@2x.png'></img>
+          </div>
+
+          <div class='col-sm-4' id='last'>
+            <h4>Project by</h4>
+            <h4>Minkyu Yang</h4>
+          </div>
+
+          <div class='col-sm-4'>
+            <img src='source/grace_hopper_academy.png'></img>
+          </div>
+
+
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+
+    <script type='text/javascript' src='js/GuessingGame.js'></script>
+  </body>
+</html>

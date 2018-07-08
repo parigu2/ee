@@ -1,0 +1,185 @@
+<style>
+.center {
+  text-align: center;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+img {
+    display: inline;
+    width: 200px;
+    height: 100px;
+}
+
+.col-sm-4 {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 35px;
+    
+}
+
+#app {
+    text-align: center;
+    width: 90%;
+    margin: 20px auto;
+}
+
+#headers {
+    font-family: 'Wendy One', sans-serif;
+    padding-bottom: 30px;
+    color: black;
+}
+
+#title {
+    color: black;
+    font-size: 46px;
+}
+
+#subtitle {
+    color: black;
+}
+
+#footer {
+    width: 100%;
+    border-top: 15px solid transparent;
+    border-image: url(source/border.png) 22 round;
+    background-color: white;
+    background: linear-gradient(to bottom right,white, yellow);
+    position: fixed;
+    height: 120px;
+    bottom: 0;
+    font-family: 'Poiret One', cursive;
+    line-height: 40px;
+}
+
+#last {
+    padding-top: 10px;
+}
+
+#parent-input {
+    width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#player-input {
+    font-family: 'Acme', sans-serif;
+    font-size: 45px;
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    font-size: 60px;
+    text-align: center;
+}
+
+#submit {
+    font-family: 'Acme', sans-serif;
+    font-size: 24px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 280px;
+    left: 53%;
+}
+
+#input-parant {
+    width:160px;
+    margin: 5% auto 50px;
+    position: relative;
+}
+
+#guesses {
+    font-family: 'Acme', sans-serif;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+#gauge {
+    font-family: 'Wendy One', sans-serif;
+    font-size: 25px;
+    text-shadow: 3px 3px 7px rgb(240, 109, 1);
+    color: rgb(238, 238, 238);
+    float: left;
+    width: 120px;
+    height: 450px;
+    position: absolute;
+    top: 12%;
+    left: 8%;
+    background-image: url('source/wood.jpeg');
+    border-radius: 20%;
+}
+
+#max {
+    width: 90px;
+    height: 60px;
+    line-height: 50px;
+    font-size: 38px;
+    margin-top: 7px;
+    text-shadow: 3px 3px 10px #778ed8;
+}
+
+#min {
+    width: 90px;
+    height: 60px;
+    line-height: 50px;
+    font-size: 38px;
+    text-shadow: 3px 3px 10px #778ed8;
+    margin-top: 10px;
+
+}
+
+#gaugeBar {
+    width: 70px;
+    height:220px;
+    margin-top: 10px;
+    border-radius: 9%;
+    background-color: whitesmoke;
+}
+
+#count {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+}
+
+#winning {
+    position: absolute;
+    right: 5%;
+    top: 13%;
+}
+
+
+.guess {
+    display: inline;
+    font-size: 30px;
+    color: white;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 10%;
+    background-color: white;
+    margin: 0px 2px;
+}
+
+.progress {
+    margin-top: 15px;
+    width: 300px;
+    position: absolute;
+    top: 75%;
+    left: 39%;
+    padding-right: 0px;
+}
+
+
+body {
+    background-image: url('source/BFC.jpg');
+    background-size: 100%;
+    background-position-y: -18%;
+}
+
+html {
+    box-sizing: 'border-box'
+}
+
+</style>
