@@ -10,4 +10,4 @@ EDIT
 5.  If possible guessing number is less than 5, (ex, between 43~47), provide hints n-1 numbers
 6.  Print number of tried & number of wins
 
-Let me know if you found any bugs!
+Let me know if you found any bugs or any better idea!
